@@ -1,0 +1,25 @@
+#studentTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+#studentTable th {
+    padding: 20px 10px;
+    text-align: left;
+    color: white;
+    background-color: red;
+    border: 1px solid grey;
+}
+
+#studentTable td {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+
+
+#studentTable tbody tr:hover {
+    background-color: #959595;
+    transition: background-color 0.3s ease;
+}

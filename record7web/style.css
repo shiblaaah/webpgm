@@ -1,0 +1,15 @@
+.first-para{
+color:white;
+background-color:green;
+padding:10px;
+}
+#second-para{
+color:red;
+background-color:orange;
+padding:10px;
+}
+p{
+color:blue;
+background-color:lightgray;
+padding:10px;
+}

@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: green;
+  padding-top: 20px;
+}
+
+/* Sidebar Links */
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.8s, background-color 0.8s;
+}
+
+.sidebar a:hover {
+  background-color: #004d00;
+}
+
+.sidebar a.active {
+  color: red;
+
+}
+
+/* Main content */
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 16px;
+  text-align: justify;
+}
